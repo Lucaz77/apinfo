@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("../imagens/fundo.jpg");
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+   display: block; 
+   height: 55px;
+   width: 400px;
+   margin: 10px;
+   border-radius: 30px;
+   border: 1px solid black;
+   font-size: 16pt;
+   padding: 10px 20px;
+   outline: none;
+}
+
+div#corpo-form{
+    width: 420px;
+    margin: 150px auto 0px auto;
+}
+
+div#corpo-form-Cad{
+    width: 420px;
+    margin: 50px auto 0px auto;
+}
+
+div#corpo-form-cad h1{
+    text-align: center;
+    padding: 05px;
+    font-size: 45;
+}
+
+div#corpo-form h1{
+ text-align: center;
+ padding: 20px;
+ font-size: 45;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+input[type=submit]{
+    background-color: paleturquoise;
+    cursor: pointer;
+}
+
+div#msg-sucesso{
+    text-align: center;
+    width: 420px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(50, 205, 50, .3);
+    border: 1px solid rgb(34, 134, 34);
+}
+
+div.msg-erro{
+    text-align: center;
+    width: 380px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgba(250, 128, 144, .3);
+    border: 1px solid rgb(165, 42, 42);
+}
